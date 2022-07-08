@@ -1,0 +1,29 @@
+.header {
+  display: grid;
+  grid-template-columns: minmax(min-content,1fr) minmax(min-content,max-content) minmax(min-content,max-content);
+  grid-template-rows: max-content;
+  min-width: 92.5%;
+  min-height: min-content;
+  background-color: #2A2C2F;
+  align-items: flex-end;
+  padding: 28px 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+  min-width: 928px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+  min-width: 720px;
+  padding: 28px 24px 0;
+
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    min-width: 288px;
+    padding: 16px 16px 0;
+  }
+}

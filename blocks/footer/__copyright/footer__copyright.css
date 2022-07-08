@@ -1,0 +1,14 @@
+
+.footer__copyright {
+  display: block;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height:114%;
+  text-align: right;
+  justify-content: end;
+  margin-left: auto;
+  
+}

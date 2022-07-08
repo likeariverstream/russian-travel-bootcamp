@@ -1,0 +1,8 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  background-color: #2A2C2F;
+  color: white;
+  padding-top: 92px;
+}

@@ -1,0 +1,17 @@
+.header__lang-link {
+  margin: 0;
+  color: white;
+  justify-self: end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: right;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
+  justify-self: end;
+  padding-left: 18px;
+  margin-right: 48px;
+}

@@ -1,0 +1,7 @@
+.places {
+  color: white;
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 148px 0;
+}

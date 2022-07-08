@@ -1,0 +1,8 @@
+
+.lead__image {
+  background-image: url(../../../images/lead__image.svg);
+  background-position: 100% 100%;
+  background-size: cover;
+  min-width: 984px;
+  min-height: 615px;
+}
