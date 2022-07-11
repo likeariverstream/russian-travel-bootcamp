@@ -1,11 +1,37 @@
 
 .cover__subtitle {
-  margin: 0 412px 245px;
+  margin: 32px 412px 245px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
   text-align: center;
+  text-decoration: none;
   z-index: 2;
+}
+.cover__subtitle:hover ~ .cover__overlay {
+  opacity: .8; 
+  transition: opacity .2s linear;
+  }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__subtitle {
+    margin: 32px 192px 195px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__subtitle {
+    margin: 32px 204px 115px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 16px 33px;
+  }
 }

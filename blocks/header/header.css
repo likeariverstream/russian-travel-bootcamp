@@ -2,28 +2,29 @@
   display: grid;
   grid-template-columns: minmax(min-content,1fr) minmax(min-content,max-content) minmax(min-content,max-content);
   grid-template-rows: max-content;
-  min-width: 92.5%;
+  min-width: 1184px;
   min-height: min-content;
   background-color: #2A2C2F;
   align-items: flex-end;
   padding: 28px 0 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
   min-width: 928px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
   min-width: 720px;
-  padding: 28px 24px 0;
+  padding: 28px 0 0;
 
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
   .header {
     min-width: 288px;
-    padding: 16px 16px 0;
+    padding: 16px 0 0;
   }
 }

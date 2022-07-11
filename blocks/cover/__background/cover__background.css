@@ -4,11 +4,33 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 92.5%;
-  min-height: 740px;
+  margin: 0 48px 0;
+  min-width: 1184px;
+  min-height: auto;
   background-image: url(../../../images/cover__background.jpg);
   background-size: cover;
   background-position: 100% 100%;
   z-index: 0;
+  text-decoration: none;
+  color: white;
 }
 
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__background {
+    margin: 0;
+    min-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__background {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__background {
+    min-width: 320px;
+  } 
+}
