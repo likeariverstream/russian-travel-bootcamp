@@ -2,7 +2,7 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: max-content 1fr; 
+  grid-template-rows: max-content 1fr;
   column-gap: 40px;
   padding-bottom: 80px;
   justify-items: stretch;
