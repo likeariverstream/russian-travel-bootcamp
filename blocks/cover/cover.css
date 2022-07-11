@@ -4,6 +4,8 @@
   background-color: #2A2C2F;
   color: white;
   padding-top: 92px;
+  height: 100%;
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

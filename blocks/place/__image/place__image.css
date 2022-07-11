@@ -4,6 +4,7 @@
   height: auto;
   object-fit: cover;
 } 
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__image {
     max-width: 440px;

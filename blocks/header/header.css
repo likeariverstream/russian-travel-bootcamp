@@ -3,6 +3,7 @@
   grid-template-columns: minmax(min-content,1fr) minmax(min-content,max-content) minmax(min-content,max-content);
   grid-template-rows: max-content;
   min-width: 1184px;
+  height: 100%;
   min-height: min-content;
   background-color: #2A2C2F;
   align-items: flex-end;

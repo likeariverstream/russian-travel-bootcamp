@@ -10,6 +10,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
     padding: 92px 48px 0;
+    height: 100%;
   }
 }
 
