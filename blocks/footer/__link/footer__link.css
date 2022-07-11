@@ -9,7 +9,11 @@
   text-decoration: none;
   color: white;
   padding-right: 18px;
+}
 
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

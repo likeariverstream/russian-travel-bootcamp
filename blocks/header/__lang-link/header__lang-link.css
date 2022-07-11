@@ -9,6 +9,11 @@
   text-align: right;
 }
 
+.header__lang-link:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
 .header__lang-link:last-child {
   text-decoration: none;
   justify-self: end;

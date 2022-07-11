@@ -11,7 +11,7 @@
   z-index: 2;
 }
 .cover__subtitle:hover ~ .cover__overlay {
-  opacity: .8; 
+  opacity: .8;
   transition: opacity .2s linear;
   }
 
