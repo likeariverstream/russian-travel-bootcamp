@@ -10,21 +10,21 @@
   margin: 40px 442px 33px 148px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .intro__text {
     margin-left: 48px;
     margin-right: 286px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro__text {
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .intro__text {
     margin-left: 16px;
     margin-right: 16px;

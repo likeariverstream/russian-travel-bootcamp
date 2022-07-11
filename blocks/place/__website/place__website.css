@@ -9,7 +9,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .place__website {
     margin: 0 auto 0 16px;
     grid-column-start: 1;

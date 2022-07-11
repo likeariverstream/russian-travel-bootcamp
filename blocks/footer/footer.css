@@ -6,16 +6,13 @@
   flex-direction: row;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .footer {
     padding: 88px 24px 24px;
-    height: 100%;
-    width: 100%;
-
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .footer {
     flex-direction: column;
     padding: 64px 118px 24px 16px;

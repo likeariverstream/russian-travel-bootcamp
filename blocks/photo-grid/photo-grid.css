@@ -10,7 +10,7 @@
   justify-content: center;
   background-color: #2A2C2F;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid {
   gap: 14px;
   grid-template-columns: repeat(3, 1fr);
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
     gap: 16px;
     padding-left: 24px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .photo-grid {
     gap: 12px;
     padding-left: 16px;

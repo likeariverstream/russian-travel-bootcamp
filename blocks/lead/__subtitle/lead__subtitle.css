@@ -10,21 +10,21 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .lead__subtitle {
     margin: 0 192px 56px;
 
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__subtitle {
     margin: 0 64px 56px;
 
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .lead__subtitle {
     margin: 0 16px 40px;
     min-width: 288px;
