@@ -1,7 +1,6 @@
 .header__lang-link {
   margin: 0;
   color: white;
-  justify-self: end;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -23,10 +22,10 @@
   margin-right: 48px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .header__lang-link:last-child {
