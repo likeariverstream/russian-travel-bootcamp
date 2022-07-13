@@ -1,12 +1,12 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 1fr;
   grid-template-rows: max-content 1fr;
   column-gap: 40px;
-  padding-bottom: 80px;
   justify-items: stretch;
   align-items: stretch;
+  padding-bottom: 80px;
 }
 
 .place:last-child {
@@ -16,6 +16,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     column-gap: 32px;
+    grid-template-columns: 440px 1fr;
   }
 }
 
@@ -23,6 +24,7 @@
 .place {
   column-gap: 28px;
   padding-bottom: 73px;
+  grid-template-columns: 340px 1fr;
   }
 }
 
