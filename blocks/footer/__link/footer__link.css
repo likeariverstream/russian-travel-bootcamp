@@ -11,6 +11,10 @@
   padding-right: 18px;
 }
 
+.footer__link:last-of-type {
+  padding-right: 0;
+}
+
 .footer__link:hover {
   opacity: .8;
   transition: opacity .2s linear;
