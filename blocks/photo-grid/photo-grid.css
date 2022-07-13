@@ -8,11 +8,12 @@
   align-items: stretch;
   background-color: #2A2C2F;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid {
-  gap: 14px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
@@ -24,7 +25,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     height: 100%;
-    }
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -34,5 +35,5 @@
     padding-right: 16px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    }
+  }
 }
