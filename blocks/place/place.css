@@ -31,9 +31,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place {
+    justify-items: stretch;
     padding-bottom: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: max-content 1fr;
-    grid-template-rows: max-content max-content max-content max-content;
+    grid-template-rows: max-content max-content 320px 1fr max-content;
   }
 }

@@ -19,6 +19,13 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 auto 32px 16px;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+  .place__title {
+    margin-left: 16px;
   }
 }

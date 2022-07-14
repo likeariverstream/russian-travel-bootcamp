@@ -9,5 +9,15 @@ grid-row-end: 4;
 grid-column-start: 2;
 grid-column-end: 3;
   }
+}
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__text {
+  grid-row-start: 4;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-top: 32px;
+  }
+  
 }
