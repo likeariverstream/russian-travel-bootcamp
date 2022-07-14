@@ -7,7 +7,8 @@
   line-height: 1.17;
   text-align: right;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-
+  text-decoration: none;
+  padding-left: 18px;
 }
 
 .header__lang-link:hover {
@@ -16,9 +17,7 @@
 }
 
 .header__lang-link:last-child {
-  text-decoration: none;
   justify-self: end;
-  padding-left: 18px;
   margin-right: 24px;
 }
 
@@ -27,7 +26,7 @@
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 8px;
-    
+
   }
 
   .header__lang-link:last-child {

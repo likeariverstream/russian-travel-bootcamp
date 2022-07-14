@@ -1,7 +1,7 @@
 .place__paragraph {
   display: inline;
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -31,6 +31,6 @@
     line-height: 26px;
     /*white-space: pre-wrap;
     justify-content: stretch;*/
-    
+
   }
 }

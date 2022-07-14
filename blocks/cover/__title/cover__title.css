@@ -1,7 +1,6 @@
-
 .cover__title {
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -11,30 +10,24 @@
   margin: 245px 312px 0;
   z-index: 2;
 }
-.cover__title:hover ~ .cover__overlay {
-  opacity: .8;
-  transition: opacity .2s linear;
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__title {
+    margin: 195px 232px 0;
   }
+}
 
-  @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover__title {
-      margin: 195px 232px 0;
-
-    }
-
-  }
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__title {
     margin: 115px 104px 0;
   }
 
-  }
-  
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
     margin: 33px 16px 0;
   }
-  }
+}

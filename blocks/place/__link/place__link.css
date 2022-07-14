@@ -1,7 +1,6 @@
-
 .place__link {
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,23 +9,14 @@
   margin-bottom: 48px;
 
 }
+
 .place__link:hover {
   opacity: .8;
   transition: opacity .4s linear;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__link {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
   }
 }
-
-

@@ -11,14 +11,12 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page {
     min-width: 1024px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page {
     min-width: 768px;
-    margin: 0 auto;
   }
 }
 
