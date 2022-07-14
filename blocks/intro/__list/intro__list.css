@@ -28,5 +28,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .intro__list {
     margin-left: 16px;
+    margin-right: 16px;
   }
 }

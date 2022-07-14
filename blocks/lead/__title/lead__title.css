@@ -28,7 +28,8 @@
     min-width: 288px;
     min-height: 88px;
     margin: 48px 16px 16px;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
   }
 }

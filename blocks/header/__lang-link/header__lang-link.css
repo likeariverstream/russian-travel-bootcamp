@@ -26,9 +26,12 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
+    margin-bottom: 8px;
+    
   }
 
   .header__lang-link:last-child {
     margin-right: 16px;
+    justify-self: center;
   }
 }
