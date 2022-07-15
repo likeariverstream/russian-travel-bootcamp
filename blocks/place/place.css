@@ -34,6 +34,6 @@
     justify-items: stretch;
     padding-bottom: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: max-content max-content 320px 1fr max-content;
+    grid-template-rows: max-content max-content 320px 1fr minmax(max-content, max-content);
   }
 }
