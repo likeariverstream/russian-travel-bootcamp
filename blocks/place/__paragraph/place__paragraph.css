@@ -28,13 +28,6 @@
     line-height: 26px;
     margin-left: 16px;
     margin-right: 16px;
-
   }
 }
 
-@media screen and (max-width: 340px) {
-  .place__paragraph {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}

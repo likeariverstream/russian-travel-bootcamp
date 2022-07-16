@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 48px 0;
-  min-height: 62.5vw;
   background-image: url(../../../images/cover__background.jpg);
   background-size: cover;
   background-position: 100% 100%;
@@ -15,7 +14,6 @@
 }
 
 .cover__background:hover .cover__overlay {
-
   opacity: .8;
   transition: opacity .2s linear;
 }

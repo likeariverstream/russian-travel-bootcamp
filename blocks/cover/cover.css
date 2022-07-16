@@ -4,13 +4,12 @@
   background-color: #2A2C2F;
   color: white;
   padding-top: 92px;
-  
+
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     padding-top: 90px;
-
   }
 }
 
