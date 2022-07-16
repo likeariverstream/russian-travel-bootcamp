@@ -8,12 +8,11 @@
   text-align: right;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   text-decoration: none;
-
-
+  padding-left: 18px;
 }
 
-.header__lang-link:last-child {
-  padding-left: 18px;
+.header__lang-link:first-child {
+  padding-left: 0;
 }
 
 .header__lang-link:hover {
