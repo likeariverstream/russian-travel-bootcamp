@@ -6,23 +6,22 @@
   object-fit: cover;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place__image {
     max-width: 340px;
     min-height: 264px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .place__image {
     max-width: 320px;
-    width: 100%;
     min-height: 320px;
     margin: 0 auto 32px;
   }

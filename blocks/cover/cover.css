@@ -4,16 +4,17 @@
   background-color: #2A2C2F;
   color: white;
   padding-top: 92px;
+  
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
     padding-top: 90px;
 
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover {
     padding-top: 66px;
   }

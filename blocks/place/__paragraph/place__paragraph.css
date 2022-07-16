@@ -14,7 +14,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
@@ -22,9 +22,8 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
-    white-space: preline;
     font-size: 16px;
     line-height: 26px;
     margin-left: 16px;
@@ -33,7 +32,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .place__paragraph {
     margin-left: 16px;
     margin-right: 16px;

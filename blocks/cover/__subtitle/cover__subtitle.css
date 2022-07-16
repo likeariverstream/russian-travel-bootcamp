@@ -10,20 +10,20 @@
   z-index: 2;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover__subtitle {
     margin: 32px 332px 195px;
   }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover__subtitle {
     margin: 32px 204px 115px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

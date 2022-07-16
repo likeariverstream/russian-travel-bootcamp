@@ -1,26 +1,10 @@
 .lead__image {
   display: block;
-  min-width: 984px;
-  min-height: 615px;
   object-fit: cover;
   width: 100%;
   height: auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__image {
-    min-width: 928px;
-    min-height: 580px;
-    
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .lead__image {
-    min-width: 768px;
-    min-height: 480px;
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__image {

@@ -8,8 +8,12 @@
   text-align: right;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   text-decoration: none;
-  padding-left: 18px;
 
+
+}
+
+.header__lang-link:last-child {
+  padding-left: 18px;
 }
 
 .header__lang-link:hover {
@@ -17,7 +21,7 @@
   transition: opacity .2s linear;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

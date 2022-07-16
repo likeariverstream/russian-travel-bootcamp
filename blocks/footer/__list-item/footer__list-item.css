@@ -4,3 +4,7 @@
   padding-right: 18px;
 
 }
+.footer__list-item:last-child {
+padding-right: 0;
+}
+
